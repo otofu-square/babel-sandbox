@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const execSync = require('child_process').execSync;
+const [_1, _2, dir] = process.argv;
+
+execSync(`cd ${dir} && npx babel input.js -o output.js`)
