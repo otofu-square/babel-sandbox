@@ -1,6 +1,5 @@
-const f = async () => {
-  const result = await Promise.resolve("ok");
-  return result;
-};
+const f = async () => {};
+const g = function*() {};
 
 f();
+g();
