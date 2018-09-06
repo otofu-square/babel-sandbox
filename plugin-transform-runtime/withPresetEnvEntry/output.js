@@ -294,8 +294,6 @@ require("core-js/modules/web.immediate");
 
 require("core-js/modules/web.dom.iterable");
 
-require("regenerator-runtime/runtime");
-
 var f =
 /*#__PURE__*/
 function () {
@@ -320,8 +318,8 @@ function () {
 
 var g =
 /*#__PURE__*/
-_regenerator.default.mark(function g() {
-  return _regenerator.default.wrap(function g$(_context2) {
+_regenerator.default.mark(function _callee2() {
+  return _regenerator.default.wrap(function _callee2$(_context2) {
     while (1) {
       switch (_context2.prev = _context2.next) {
         case 0:
@@ -329,7 +327,7 @@ _regenerator.default.mark(function g() {
           return _context2.stop();
       }
     }
-  }, g, this);
+  }, _callee2, this);
 });
 
 f();

@@ -3,9 +3,13 @@ module.exports = {
     [
       "@babel/preset-env",
       {
-        useBuiltIns: "entry"
+        useBuiltIns: "entry",
+        exclude: ["transform-regenerator"]
       }
     ]
   ],
-  plugins: ["@babel/plugin-transform-runtime"]
+  plugins: [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-transform-regenerator"
+  ]
 };
